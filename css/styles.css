@@ -1,0 +1,29 @@
+body {
+    background-color: aquamarine;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+h1{
+    text-align: center;
+}
+
+.principal{
+    background-color: aliceblue;
+    border: solid 1px black;
+    width: 616px;
+    height: 616px;
+    margin: auto;
+}
+
+.horizontales{
+   width: 680px; 
+   height: 5px;
+   display: flex;
+}
+
+.cuadros{
+    width: 5px;
+    height: 5px;
+    flex: auto;
+}
