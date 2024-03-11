@@ -17,13 +17,13 @@ h1{
 }
 
 .horizontales{
-   width: 680px; 
-   height: 5px;
+   width: 616px; 
+   height: 4px;
    display: flex;
 }
 
 .cuadros{
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     flex: auto;
 }

@@ -1,11 +1,12 @@
 const divPrincipal = document.querySelector('.principal');
 const nuevoBlock = document.querySelector('#clear');
 
-for (let i = 0; i < 136 ; i++){
+
+for (let i = 0; i < 154 ; i++){
     const divHorizontal = document.createElement('div');
     divHorizontal.classList.add('horizontales');
     divHorizontal.id = "linea"+i;
-    for( let j = 0; j<136;j++){
+    for( let j = 0; j<154;j++){
         const divVertical = document.createElement('div');
         divVertical.classList.add('cuadros');
         divVertical.id = "cuadro"+i+j;
